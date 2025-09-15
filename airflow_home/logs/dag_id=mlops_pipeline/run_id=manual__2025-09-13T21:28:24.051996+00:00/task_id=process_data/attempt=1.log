@@ -1,0 +1,7 @@
+{"timestamp":"2025-09-13T21:28:26.783164","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-13T21:28:26.783849","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/mlops_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-13T21:28:27.907964Z","level":"info","event":"Original columns: Index(['sepal_length', 'sepal_width', 'petal_length', 'petal_width',","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-13T21:28:27.908187Z","level":"info","event":"       'species'],","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-13T21:28:27.908250Z","level":"info","event":"      dtype='object')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-13T21:28:27.918038Z","level":"info","event":"[preprocess_data] wrote /home/junu6316/ml_airflow_project/airflow_home/dags/data/processed_data.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-13T21:28:27.918271","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

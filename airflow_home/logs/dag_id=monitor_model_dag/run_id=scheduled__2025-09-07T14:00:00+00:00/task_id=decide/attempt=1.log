@@ -1,0 +1,7 @@
+{"timestamp":"2025-09-07T14:09:55.891330","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-07T14:09:55.892172","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T14:09:57.297490","level":"info","event":"Done. Returned value was: retrain_model","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-09-07T14:09:57.297701","level":"info","event":"Branch into retrain_model","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-09-07T14:09:57.298163","level":"info","event":"Following branch {'retrain_model'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-09-07T14:09:57.298749","level":"info","event":"Skipping tasks [('model_ok', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-09-07T14:09:57.314515","level":"info","event":"Skipping downstream tasks.","logger":"task"}

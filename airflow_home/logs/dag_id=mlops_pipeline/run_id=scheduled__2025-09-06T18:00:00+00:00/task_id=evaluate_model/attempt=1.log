@@ -1,0 +1,14 @@
+{"timestamp":"2025-09-07T14:09:56.099168","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-07T14:09:56.100182","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/mlops_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T14:09:57.400693Z","level":"info","event":"=== Model Evaluation Report ===","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407216Z","level":"info","event":"                 precision    recall  f1-score   support","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407394Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407444Z","level":"info","event":"    Iris-setosa       1.00      1.00      1.00        50","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407488Z","level":"info","event":"Iris-versicolor       1.00      1.00      1.00        50","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407531Z","level":"info","event":" Iris-virginica       1.00      1.00      1.00        50","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407572Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407613Z","level":"info","event":"       accuracy                           1.00       150","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407655Z","level":"info","event":"      macro avg       1.00      1.00      1.00       150","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407696Z","level":"info","event":"   weighted avg       1.00      1.00      1.00       150","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407735Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-07T14:09:57.407781","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

@@ -1,0 +1,6 @@
+{"timestamp":"2025-09-13T21:28:04.156685","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-13T21:28:35.815864","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-13T21:29:07.413677","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-13T21:29:39.374376","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-13T21:30:10.801819","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-13T21:30:41.957897","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/model_monitoring.py","logger":"airflow.models.dagbag.DagBag"}

@@ -1,0 +1,108 @@
+{"timestamp":"2025-09-07T07:21:21.813705","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:21:21.826180Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:21:52.827420","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:21:52.840015Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:22:23.761103","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:22:23.771504Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:22:54.596233","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:22:54.604060Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:23:24.707802","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:23:24.715295Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:23:55.606954","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:23:55.616241Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:24:26.523569","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:24:26.531681Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:24:57.375451","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:24:57.383977Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:25:28.245224","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:25:28.252639Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:25:58.282386","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:25:58.290000Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:26:29.195932","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:26:29.203838Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:26:59.442955","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:26:59.451131Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:27:30.345530","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:27:30.354163Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:28:01.242156","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:28:01.251026Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:28:32.160619","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:28:32.170878Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:29:03.091453","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:29:03.099617Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:29:34.064121","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:29:34.073150Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:30:05.036229","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:30:05.046341Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:30:35.981532","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:30:35.989821Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:31:06.935853","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:31:06.942745Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:31:37.889856","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:31:37.898905Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:32:08.812968","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:32:08.820759Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:32:39.721134","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:32:39.728123Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:33:09.850092","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:33:09.858245Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:33:40.764761","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:33:40.771944Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:34:11.047543","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:34:11.054321Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:34:41.982927","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:34:41.990255Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:35:12.053841","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:35:12.062278Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:35:42.980296","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:35:42.989467Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:36:13.928178","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:36:13.935691Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:36:44.009127","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:36:44.018342Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:37:14.933645","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:37:14.945128Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:37:45.899272","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:37:45.907141Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:38:16.820090","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:38:16.829338Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:38:47.763317","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:38:47.771278Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:39:17.808832","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:39:17.816078Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:39:47.898508","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:39:47.907238Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:40:18.909215","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:40:18.917402Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:40:49.214703","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:40:49.221512Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:41:19.284391","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:41:19.295383Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:41:49.402841","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:41:49.410613Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:42:19.512584","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:42:19.523570Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:42:49.634617","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:42:49.641981Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:43:19.703399","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:43:19.711213Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:43:49.776717","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:43:49.783584Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:44:19.832505","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:44:19.839501Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:44:49.892379","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:44:49.899074Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:45:19.945704","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:45:19.952686Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:45:50.938579","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:45:50.945635Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:46:21.230990","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:46:21.238808Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:46:51.316921","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:46:51.324312Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:47:22.276864","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:47:22.284200Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:47:52.331577","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:47:52.338313Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
+{"timestamp":"2025-09-07T07:48:22.402409","level":"info","event":"Filling up the DagBag from /home/junu6316/ml_airflow_project/airflow_home/dags/demo.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-07T07:48:22.409374Z","level":"info","event":"Airflow home directory is set to: /home/junu6316/ml_airflow_project/airflow_home","chan":"stdout","logger":"processor"}
