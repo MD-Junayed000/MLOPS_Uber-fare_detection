@@ -1,2 +1,8 @@
 venv
 cuda-keyring_1.1-1_all.deb
+# Airflow artifacts
+airflow_home/
+*.db
+*.pyc
+*.log
+__pycache__/
