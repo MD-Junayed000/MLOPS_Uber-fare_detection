@@ -1,0 +1,10 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps: [src/preprocess.py]
+    outs: [data/processed/iris_processed.csv]
+  train:
+    cmd: python src/train.py
+    deps: [src/train.py, data/processed/iris_processed.csv]
+    outs: [models/model.pkl]
+    metrics: [metrics.json]

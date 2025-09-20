@@ -1,0 +1,10 @@
+FROM apache/airflow:2.9.3
+
+USER root
+RUN pip install --no-cache-dir "zenml[server]==0.84.3" "uvicorn[standard]"
+COPY entrypoint-combined.sh /entrypoint-combined.sh
+RUN chmod +x /entrypoint-combined.sh
+
+EXPOSE 8080 8237
+USER airflow
+ENTRYPOINT ["/entrypoint-combined.sh"]

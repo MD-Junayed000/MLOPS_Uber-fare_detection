@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install ZenML server extras for 0.84.3 — this pulls in 'secure' and other API deps
+RUN pip install --no-cache-dir "zenml[server]==0.84.3" "uvicorn[standard]"
+
+EXPOSE 8237
+
+# Run the ZenML FastAPI app
+CMD ["uvicorn", "zenml.zen_server.zen_server_api:app", "--host", "0.0.0.0", "--port", "8237"]

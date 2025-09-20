@@ -1,0 +1,7 @@
+.env
+.secrets/
+mlflow.db
+mlruns/
+.zenml/
+metrics.json
+venv

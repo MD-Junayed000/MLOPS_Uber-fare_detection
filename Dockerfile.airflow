@@ -1,0 +1,3 @@
+# Keep Airflow image clean to avoid pip/constraint conflicts
+FROM apache/airflow:2.9.3
+# no extra pip installs here
