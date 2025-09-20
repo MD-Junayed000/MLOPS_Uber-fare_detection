@@ -28,6 +28,8 @@ services:
   # ---------- Airflow ----------
   airflow-webserver:
     build: { context: ., dockerfile: Dockerfile.airflow }
+    env_file: [.env]
+    user: "${AIRFLOW_UID:-50000}:0"
     environment:
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
@@ -35,6 +37,15 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
       AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+      # MLflow inside the compose network:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      # DVC creds (from .env)
+      DVC_HTTP_USER: ${DVC_HTTP_USER:-}
+      DVC_HTTP_PASSWORD: ${DVC_HTTP_PASSWORD:-}
+      # ZenML client -> ZenML server in compose
+      ZENML_SERVER_URL: http://zenml:8237
+      ZENML_DEFAULT_USERNAME: ${ZENML_USERNAME:-admin}
+      ZENML_DEFAULT_PASSWORD: ${ZENML_PASSWORD:-admin}
     depends_on:
       postgres: { condition: service_started }
       redis: { condition: service_started }
@@ -53,6 +64,8 @@ services:
 
   airflow-scheduler:
     build: { context: ., dockerfile: Dockerfile.airflow }
+    env_file: [.env]
+    user: "${AIRFLOW_UID:-50000}:0"
     environment:
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
@@ -60,6 +73,15 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
       AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+      # MLflow inside the compose network:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      # DVC creds (from .env)
+      DVC_HTTP_USER: ${DVC_HTTP_USER:-}
+      DVC_HTTP_PASSWORD: ${DVC_HTTP_PASSWORD:-}
+      # ZenML client config
+      ZENML_SERVER_URL: http://zenml:8237
+      ZENML_DEFAULT_USERNAME: ${ZENML_USERNAME:-admin}
+      ZENML_DEFAULT_PASSWORD: ${ZENML_PASSWORD:-admin}
     depends_on:
       postgres: { condition: service_started }
       redis: { condition: service_started }
@@ -72,6 +94,8 @@ services:
 
   airflow-worker:
     build: { context: ., dockerfile: Dockerfile.airflow }
+    env_file: [.env]
+    user: "${AIRFLOW_UID:-50000}:0"
     environment:
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
@@ -79,6 +103,15 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
       AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+      # MLflow inside the compose network:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      # DVC creds (from .env)
+      DVC_HTTP_USER: ${DVC_HTTP_USER:-}
+      DVC_HTTP_PASSWORD: ${DVC_HTTP_PASSWORD:-}
+      # ZenML client config
+      ZENML_SERVER_URL: http://zenml:8237
+      ZENML_DEFAULT_USERNAME: ${ZENML_USERNAME:-admin}
+      ZENML_DEFAULT_PASSWORD: ${ZENML_PASSWORD:-admin}
     depends_on:
       postgres: { condition: service_started }
     volumes:
@@ -90,6 +123,8 @@ services:
 
   airflow-init:
     build: { context: ., dockerfile: Dockerfile.airflow }
+    env_file: [.env]
+    user: "${AIRFLOW_UID:-50000}:0"
     environment:
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
@@ -97,6 +132,13 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
       AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+      # DVC creds (optional for init)
+      DVC_HTTP_USER: ${DVC_HTTP_USER:-}
+      DVC_HTTP_PASSWORD: ${DVC_HTTP_PASSWORD:-}
+      # ZenML client config (optional for init)
+      ZENML_SERVER_URL: http://zenml:8237
+      ZENML_DEFAULT_USERNAME: ${ZENML_USERNAME:-admin}
+      ZENML_DEFAULT_PASSWORD: ${ZENML_PASSWORD:-admin}
     depends_on:
       postgres: { condition: service_started }
       redis: { condition: service_started }
@@ -119,7 +161,7 @@ services:
       - ./mlruns:/mlruns
     command: mlflow server --host 0.0.0.0 --backend-store-uri sqlite:///mlflow.db --default-artifact-root /mlruns
     healthcheck:
-      test: ["CMD-SHELL", "curl -fsS http://localhost:5000 || exit 1"]
+      test: ["CMD-SHELL", "curl -fsS http://localhost:5000/ || exit 1"]
       interval: 15s
       timeout: 5s
       retries: 20
@@ -145,9 +187,6 @@ services:
     environment:
       DVC_HTTP_USER: ${DVC_HTTP_USER:-}
       DVC_HTTP_PASSWORD: ${DVC_HTTP_PASSWORD:-}
-      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
-      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
-      AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION:-us-east-1}
     volumes:
       - ./:/repo
     working_dir: /repo

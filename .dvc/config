@@ -1,0 +1,7 @@
+[core]
+    remote = dagshub
+['remote "dagshub"']
+    url = https://dagshub.com/MD-Junayed000/MLOPS_Uber-fare_detection.dvc
+    auth = basic
+    user = MD-Junayed000
+    password = f5e9412af68cea57dd4ec9c57df2bbe6c6736e84

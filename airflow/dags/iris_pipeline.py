@@ -23,5 +23,12 @@ with DAG(
         task_id="dvc_push",
         bash_command="cd /mlops && dvc push && git add . && git commit -m 'update model' || true"
     )
+    
+    
+    # ...inside the DAG block, after dvc_push:
+    zenml_run = BashOperator(
+        task_id="zenml_run",
+        bash_command="cd /mlops && python zenml_pipeline.py"
+    )
 
-    dvc_pull >> dvc_repro >> dvc_push
+    dvc_pull >> dvc_repro >> dvc_push>> zenml_run
